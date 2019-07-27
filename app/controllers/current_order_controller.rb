@@ -1,7 +1,12 @@
 class CurrentOrderController < ApplicationController
+
   def create
     @current_order = CurrentOrder.new(current_order_params)
     @order = Order.find(params[:order_id])
+  end
+
+  def new
+
   end
 
   private
