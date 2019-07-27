@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
   resources :orders do
 
-        resources :items, only: [:show]
+        resources :items
 
-        resources :current_orders, only: [:create]
+        resources :current_orders
 
         end
 

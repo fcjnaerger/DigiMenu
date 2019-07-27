@@ -3,6 +3,14 @@
   padding: 30px;
  }
 
+ .restaurant-header {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
 .header-image {
 
     height: 30vh;
@@ -12,6 +20,8 @@
     img {
       position: cover;
     }
+// padding - top: to display the restaurant name
+    padding-top: 30vh;
 }
 
 
