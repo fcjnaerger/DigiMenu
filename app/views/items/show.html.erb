@@ -1,0 +1,37 @@
+
+
+    <!-- Description of the meal -->
+    <div class="container-wrapper">
+        <div class="container-wrapper">
+            <div class="item-details">
+                <div class="item-shoppingcard">
+                    <!-- <p>1</p> -->
+                    <%= link_to ' <i class="fas fa-shopping-cart"></i> '.html_safe, root_path %>
+                </div>
+                <h3>
+                    <%= @item.name %>
+                </h3>
+                <p>
+                    <%= @item.description %>
+                </p>
+            </div>
+            <!-- Amount of the meal -->
+
+            <div class="item-amount-buttons">
+        <div class="item-amount">
+            <div class="item-amount-smaller">
+                <p>-</p>
+            </div>
+            <div class="item-amount-display">
+                <p>1</p>
+            </div>
+            <div class="item-amount-greater">
+               <p>+</p>
+            </div>
+        </div>
+        <div class="item-price">
+            <h2>
+                <span id="price"><%=@item.price %></span> €</h2>
+        </div>
+    </div>
+
