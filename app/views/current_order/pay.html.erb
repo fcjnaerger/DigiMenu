@@ -1,0 +1,77 @@
+
+<div class="restaurant-header">
+  <p>Thanks for visiting: <strong><%= Restaurant %></strong></p>
+</div>
+
+<div class="header-image" style="background-image: url('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');   background-size: cover;">
+</div>
+
+
+  <div class="container-wrapper">
+
+    <h5>Choose a Payment option:</h5>
+    <hr>
+
+<!-- Payment Options -->
+<div class="pay-options">
+
+<!-- <div class="applepay"><i class="fab fa-apple-pay"></i></div>
+
+<div class="paypal"><i class="fab fa-cc-paypal"></i></div>
+
+<div class="creditcart"><i class="fab fa-cc-mastercard"></i></div>
+
+<div class="Stripe"><i class="fab fa-cc-stripe"></i></div> -->
+
+<!-- TABS -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applepay">
+  <i class="fab fa-apple-pay"></i>
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#paypal">
+  <i class="fab fa-cc-paypal"></i>
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mastercart">
+  <i class="fab fa-cc-mastercard"></i>
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stripe">
+  <i class="fab fa-cc-stripe"></i>
+</button>
+<!-- Modal -->
+<!-- Apple Pay -->
+<div class="modal fade" id="applepay" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Apple Pay</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Pay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Apple Pay -->
+
+<!-- TABS -->
+
+</div>
+
+<hr>
+<!-- END Payment Options -->
+
+<div class="pay-confirm">
+
+
+</div>
+
+
+  </div>
