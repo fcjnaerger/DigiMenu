@@ -1,0 +1,2 @@
+class CurrentOrderController < ApplicationController
+end
