@@ -19,5 +19,14 @@ class OrdersController < ApplicationController
     @order = Order.find(params[:id])
   end
 
+  def pay
+    @order = Order.last
+    render "current_order/pay"
+  end
+
+def cart
+    @order = Order.last
+    render "pages/cart"
+  end
 
 end
