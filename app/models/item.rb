@@ -4,4 +4,6 @@ class Item < ApplicationRecord
   has_many :current_orders
   has_many :orders, through: :current_orders
 
+  mount_uploader :image, PhotoUploader
+
 end
